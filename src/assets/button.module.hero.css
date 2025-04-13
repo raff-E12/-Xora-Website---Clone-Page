@@ -1,0 +1,89 @@
+
+
+.marker-side{
+    padding: 2px;
+    background-color: #3c52d9;
+    width: 4px;
+    height: 30px;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .marker-side::after{
+    content: '';
+    padding: 8px;
+    background-color: #3c52d9;
+    position: absolute;
+    top: 7px;
+    right: -3px;
+    transform: rotate(44deg);
+  }
+
+  .btn{
+    border: 1.6px solid #253575;
+    background: linear-gradient(#334679, #162561);
+    box-shadow: inset 0px 1px 10px 1px #3c52d9, 2px 4px 10px 2px #0e1434, 0px 0px 30px 1px #2ef2ff;
+    cursor: pointer;
+    transition: all ease-in .10s;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    border-radius: 15px;
+    gap: 14px;
+    overflow: hidden;
+  }
+
+  .btn a{
+    filter: drop-shadow(0px 2px 5px #2ef2ff);
+  }
+
+  #btn-1{
+    width: 182px;
+    height: 60px;
+  }
+
+  #btn-2{
+    width: 220px;
+    height: 60px;
+  }
+
+  #btn-3{
+    width: 220px;
+    height: 60px;
+  }
+
+  #btn-4{
+    width: 192px;
+    height: 60px;
+  }
+
+  #btn-5{
+    width: 192px;
+    height: 60px;
+  }
+
+  #btn-6{
+    width: 192px;
+    height: 60px;
+  }
+
+
+  .link-btn{
+    color: #2ef2ff;
+  }
+
+  .btn:hover{
+    box-shadow: inset 0px 1px 10px 1px #3c52d9, 2px 4px 10px 2px #0e1434, 0px 0px 0px 0px #2ef2ff;
+    transition: all ease-in .10s;
+  }
+
+  .btn:hover a{
+    filter: drop-shadow(0px 0px 0px #2ef2ff);
+    transition: all ease-in .10s;
+  }
+
+  .btn:not(hover){
+    background: linear-gradient(#334679, #162561);
+    transition: all ease-in .10s;
+  }

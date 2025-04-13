@@ -1,0 +1,46 @@
+.footer-sc{
+    background: linear-gradient(#1b275a, #0e1434);
+    border-top: 4px solid #3062a3;
+  }
+  
+  .btn-social{
+    background: linear-gradient(#080d27, transparent);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    border: 2px solid rgba(196, 203, 245, 0.5);
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn-social a{
+    padding: 2px;
+    width: auto;
+    height: auto;
+  }
+
+  .btn-social:active{
+    background: linear-gradient(#253575, #162561);
+    border: 2px solid #3062a3;
+    box-shadow: inset 0px 0px 10px 10px #080d27;
+    transition: all linear .10s;
+  }
+
+  .btn-social:active a{
+    width: 19px;
+    height: 19px;
+    transition: all linear .10s;
+  }
+
+  .footer-sc a{
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 436;
+    font-style: normal;
+  }
+
+  .footer-sc a:hover{
+    text-decoration:underline;
+  }

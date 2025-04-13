@@ -1,0 +1,41 @@
+.btn-apps{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background: linear-gradient(#1b275a, #0e1434);
+    border-radius: 100px;
+    position: relative;
+    border: 3px solid #334679;
+    box-shadow: inset 0px 10px 10px 2px #071230;
+    overflow: hidden;
+}
+
+.btn-apps a{
+    font-size: 31px;
+}
+
+.arrow-btn{
+    position: absolute;
+    padding: 20px;
+    background-color: #334679;
+    top: 10px;
+    left: -31px;
+    width: 20px;
+    border-radius: 100px;
+}
+
+.btn-apps i{
+    filter: drop-shadow(1px 2px 9px #2ef2ff);
+}
+
+.btn-apps a:active{
+    color: #2ef2ff;
+    border: 3px solid #3c52d9;
+    background: linear-gradient(#334679, #162561);
+    transition: all linear .10s;
+}
+.btn-apps:active i{
+    font-size: 20px;
+    filter: drop-shadow(0px 0px 0px #2ef2ff);
+    transition: all linear .10s;
+}
